@@ -1,13 +1,11 @@
-let Balance = 11;
+let question1 = "Salam";
 
-if(Balance < 1){
-	console.log("Moazziz Sarif, aap ka mojooda balance iss call k lye naa kaafi hai. Please re-charge karain.");
+let q1 = "Salam";
+// var answer1 = Thank you for calling TechKaro Customer Service. How may I help you?
+
+if (q1 == question1) {
+	console.log("Thank you for calling TechKaro Customer Service. How may I help you?");
 }
-
-else if (Balance > 0 && Balance <= 10){
-	console.log("Moazziz sarif, aap ka balance khatam honay wala hai");
-}
-
-if (Balance > 10) {
-	console.log("Ring Ring")
+else{
+	console.log("nothing");
 }
