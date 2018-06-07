@@ -1,9 +1,10 @@
-let leapYear = 365;
+let year = 2015;
 
-if (leapYear == 366 ) {
-	console.log("This is leapYear");
+
+if (year%4 == 0){
+	console.log("This is leapYear")
 }
 
 else{
-	console.log("this is not leapYear")
+	console.log("This is not leapYear")
 }
